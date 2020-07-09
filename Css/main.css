@@ -1,0 +1,32 @@
+/*----------*/
+/*main style*/
+/*----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row {
+    max-width:1140px;
+}
+
+.box {
+    padding:1%;
+}
+
+/*----------*/
+/*HEADINGS*/
+/*----------*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    letter-spacing: 1.2px;
+}
