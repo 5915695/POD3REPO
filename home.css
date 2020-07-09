@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 100%;
+
+    height: 65%;
+}
+.footer{
+    background-color: grey;
+}
