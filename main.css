@@ -1,10 +1,15 @@
+body {
+    background-color: #111111;
+    color: wheat;
+}
+
 input {
     width: 100%;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid #111111;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: wheat;
     resize: none;
 }
 
@@ -13,8 +18,8 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid #111111;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: wheat;
     resize: none;
   }
