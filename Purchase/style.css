@@ -1,0 +1,26 @@
+*{background-color: orangered;}
+*{box-sizing: border-box;}
+.grid{display: grid;
+    grid-template-columns: 33% 33% 33%;
+    float: left;
+    padding: 1px;
+
+}
+
+
+figure {
+    border: 1px #cccccc solid;
+    background-color: orange;
+    padding: 4px;
+    margin: 5px;
+  }
+  
+  figcaption {
+    background-color: orange;
+    color: black;
+    font-size: 12pt;
+    font-style: normal;
+    padding: 2px;
+    text-align: center;
+  }
+
