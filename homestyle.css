@@ -1,3 +1,129 @@
 body{
     background-color: black;
+    width: 100%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    overflow-x: unset;
+}
+.logo img{
+    width: 100%;
+    height: 0%;
+}
+.mission-statement-wrapper{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 20%;
+    border-color: brown;
+    padding: 0%;
+    font-size: 4vw;
+    word-wrap: break-word;
+}
+.mission-statement{
+    width: 100%;
+    position: relative;
+    top: 0%;
+    border: 10% solid chocolate;
+    padding: 5%;
+    overflow: visible;
+}
+h2{
+    color: chocolate;
+    font-size: 8vw;
+}
+.slider{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    border-style: solid;
+    border-width: 20%;
+    border-color: brown;
+    padding: 0%;
+}
+.sliderchild{
+    height: 100%;
+    width: 500%;
+    animation: slider infinite 20s 2s;
+}
+.imagecon{
+    display: block;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+    float: left;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    font-size: 20vw;
+    text-align: center;
+    color: red;
+}
+.imagecon:nth-child(1){
+    background-image: url(blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(2){
+    background-image: url(Yucca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(3){
+    background-image: url(russet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(4){
+    background-image: url(japanese.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(5){
+    background-image: url(blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    12.5%{
+        margin-left: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    37.5%{
+        margin-left: -200%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    62.5%{
+        margin-left: -300%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    87.5%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+.sign-up-sheet {
+    width: 100%;
+    color: sienna;
+    border-style: solid;
+    border-width: 20%;
+    border-color: brown;
+
+}
+
+.footer{
+    background-color: grey;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
