@@ -3,6 +3,10 @@ body {
     color: wheat;
 }
 
+h2 {
+  text-align: center;
+}
+
 input {
     width: 100%;
     padding: 12px 20px;
@@ -22,7 +26,7 @@ textarea {
     border-radius: 4px;
     background-color: wheat;
     resize: none;
-  }
+}
 
   ul {
     position: sticky;
@@ -48,3 +52,10 @@ textarea {
   li a:hover {
     background-color: #111111;
   }
+
+@media only screen and (min-width: 768px){
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+}
