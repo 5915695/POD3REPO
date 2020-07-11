@@ -8,6 +8,7 @@ body{
 .logo img{
     width: 100%;
     height: 0%;
+    border-radius: 80%;
 }
 .mission-statement-wrapper{
     height: 100%;
@@ -32,7 +33,7 @@ h2{
     font-size: 8vw;
 }
 .slider{
-    background-color: green;
+    background-color: black;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -126,4 +127,117 @@ h2{
     position: fixed;
     bottom: 0%;
     width: 100%;
+}
+
+@media only screen and (min-width:300px){
+    .imagecon{
+        font-size: 15vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(blue5.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca5.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(russet5.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(japanese5.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue5.png);
+    }
+}
+@media only screen and (min-width:350px){
+    .imagecon:nth-child(1){
+        background-image: url(blue6.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca6.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(russet6.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(japanese6.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue6.png);
+    }
+}
+@media only screen and (min-width:400px){
+    .imagecon{
+        font-size: 15vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(blue.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(russet.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(japanese.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue.png);
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(blue2.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca2.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(russet2.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(japanese2.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue2.png);
+    }
+}
+@media only screen and (min-width: 1000px){
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(blue3.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca3.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(russet3.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(japanese3.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue3.png);
+    }
+}
+@media only screen and (min-width:1200px){
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(blue4.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(Yucca4.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(blue4.png);
+    }
 }
