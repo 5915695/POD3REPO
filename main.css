@@ -48,3 +48,17 @@ textarea {
   li a:hover {
     background-color: #111111;
   }
+
+  @media only screen and (min-width: 768px){
+    input {
+        width: 50%;
+    }
+    
+    textarea {
+        width: 50%;
+      }
+
+      form {
+        margin-left: 25%;
+    }
+}
