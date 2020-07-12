@@ -356,6 +356,9 @@ h2{
     }
 }
 @media only screen and (min-width:1200px){
+    .slider{
+        height: 1150px;
+    }
     .mission-statement-wrapper{
         font-size: 2vw;
     }
