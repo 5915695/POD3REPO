@@ -1,36 +1,100 @@
 body{
-    background-color: black;
-    width: 100%;
+    background-color: #111111;
+    
     padding: 0%;
     scroll-behavior: smooth;
     overflow-x: unset;
 }
+h2{
+    color: rgb(196, 130, 108);
+    font-size: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+ .title h1{
+    color: rgb(196, 128, 105);
+    font-size: 20vw;
+    text-align: center;
+    font-family: monospace;
+    padding: 0%;
+}
+.title p{
+    color: darksalmon;
+    font-size: 10vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+}
+.title img{
+    width: 100%;
+    height: 100%;
+}
 .logo img{
     width: 100%;
-    height: 0%;
-    border-radius: 80%;
-}
-.mission-statement-wrapper{
     height: 100%;
-    width: 100%;
-    border-style: solid;
-    border-width: 20%;
-    border-color: brown;
-    padding: 0%;
-    font-size: 4vw;
-    word-wrap: break-word;
+   border-radius: 100%;
+    border-style: dotted;
+    border-color: cornflowerblue;
+    image-rendering: crisp-edges;
 }
 .mission-statement{
     width: 100%;
-    position: relative;
-    top: 0%;
     border: 10% solid chocolate;
-    padding: 5%;
-    overflow: visible;
+    border-width: 20%;
+    color: rgb(226, 130, 98);
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: brown;
+    font-size: 5vw;
 }
-h2{
-    color: chocolate;
-    font-size: 8vw;
+.mission-statement img{
+    width: 100%;
+}
+.deviant{
+    color: rgb(226, 130, 98);
+    border-style: ridge;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+}
+.deviant img{
+    width: 100%;
+}
+.donation{
+    text-align: center;
+}
+.sign-up-sheet {
+    width: 100%;
+    color: white;
+    border-style: solid;
+    border-width: 20%;
+    border-color: brown;
+    border-width: 100%;
+    text-align: center;
+    overflow: visible;
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRN7gD1AZ_cn3o5qhMq6AYkKbhNlGOSNU4p9A&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    text-align: center;
+    font-size: 5vw;
+    width: 100%;
+    height: 100%;
+}
+.inputbox{
+    width: 60vw;
+    height: 5vw;
+    font-size: 4vw;
+}
+.submitbutton{
+    color: white;
+    background-color: cornflowerblue;
+    width: 30vw;
+    height: 6vw;
+    font-size: 4vw;
 }
 .slider{
     background-color: black;
@@ -59,6 +123,7 @@ h2{
     -ms-text-size-adjust: auto;
     -moz-text-size-adjust: auto;
     font-size: 20vw;
+    font-family: monospace;
     text-align: center;
     color: red;
 }
@@ -113,19 +178,8 @@ h2{
         margin-left: -400%;
     }
 }
-.sign-up-sheet {
-    width: 100%;
-    color: sienna;
-    border-style: solid;
-    border-width: 20%;
-    border-color: brown;
-
-}
-
 .footer{
     background-color: grey;
-    position: fixed;
-    bottom: 0%;
     width: 100%;
 }
 
@@ -188,6 +242,58 @@ h2{
 }
 
 @media only screen and (min-width: 700px){
+    h2{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 3vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .title h1{
+        color: rgb(196, 128, 105);
+        font-size: 20vw;
+        text-align: center;
+        font-family: monospace;
+        
+    }
+    .title p{
+        padding-top: 6%;
+    }
+    .title{
+        background-image: url(https://thumbs.gfycat.com/AllForsakenAsianporcupine-small.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+    }
+    .title img{
+        display: none;
+    }
+    .mission-statement{
+        font-size: 3vw;
+        border-color: brown;
+    }
+    .mission-statement img{
+        float: left;
+        width: 25%;
+    }
+    .deviant{
+        font-size: 3vw;
+    }
+    .deviant img{
+        width: 25%;
+        float: left;
+    }
+    .inputbox{
+        width: 35vw;
+        height: 4vw;
+        font-size: 3vw; 
+    }
+    .submitbutton{
+        width: 15vw;
+        height: 6vw;
+        font-size: 4vw;
+    }
     .imagecon{
         font-size: 10vw;
     }
@@ -208,6 +314,27 @@ h2{
     }
 }
 @media only screen and (min-width: 1000px){
+    h2{
+        font-size: 6vw;
+    }
+    .logo{
+        width: 80%;
+        padding-left: 10%;
+    }
+    .mission-statement{
+        width: 100%;
+    }
+    .inputbox{
+        width: 30vw;
+        height: 4vw;
+        font-size: 3vw; 
+    }
+    .submitbutton{
+        width: 20vw;
+        height: 4vw;
+        font-size: 2vw;
+    }
+    
     .imagecon{
         font-size: 10vw;
     }
@@ -228,6 +355,12 @@ h2{
     }
 }
 @media only screen and (min-width:1200px){
+    .mission-statement-wrapper{
+        font-size: 2vw;
+    }
+    .deviant{
+        font-size: 2vw;
+    }
     .imagecon{
         font-size: 10vw;
     }
