@@ -1,0 +1,539 @@
+body{
+    background-color: white;
+    padding: 0%;
+    scroll-behavior: smooth;
+<<<<<<< HEAD:Css/homestyle.css
+    overflow-x: hidden;
+=======
+    overflow-x: unset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+>>>>>>> 9dc94258856549ab5cb38e419a0ae03485c92ae6:homestyle.css
+}
+h2{
+    color: black;
+    font-size: 10vw;
+    text-align: center;
+    font-family: monospace;
+}
+.title p{
+    color:black;
+    font-size: 10vw;
+    text-align: center;
+    font-family: monospace;
+}
+.title img{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+<<<<<<< HEAD:Css/homestyle.css
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: cornflowerblue;
+=======
+   border-radius: 100%;
+>>>>>>> 9dc94258856549ab5cb38e419a0ae03485c92ae6:homestyle.css
+    image-rendering: crisp-edges;
+}
+.imagetext{
+    position: relative;
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mission-statement{
+    width: 100%;
+    border: 10% solid chocolate;
+    border-width: 20%;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-color: brown;
+    font-size: 6vw;
+}
+.mission-statement img{
+    width: 100%;
+}
+.deviant{
+    color: black;
+    border-style: ridge;
+    border-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vw;
+    position: relative;
+}
+.deviant img{
+    width: 100%;
+}
+.donation{
+    text-align: center;
+}
+.sign-up-sheet {
+    width: 100%;
+    color: white;
+    border-style: solid;
+    border-width: 20%;
+    border-color: brown;
+    border-width: 100%;
+    text-align: center;
+    overflow: visible;
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh_sTkuAEXVYJuWZRSvJGxIwDmusENsZxytA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    text-align: center;
+    font-size: 6vw;
+    width: 100%;
+    height: 100%;
+}
+.inputbox{
+    width: 60vw;
+    height: 7vw;
+    font-size: 5vw;
+}
+.submitbutton{
+    color: white;
+    background-color: cornflowerblue;
+    width: 30vw;
+    height: 6vw;
+    font-size: 4vw;
+}
+.slider{
+    background-color: black;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0%;
+    position: relative;
+    z-index: 3;
+}
+.sliderchild{
+    height: 100%;
+    width: 500%;
+    animation: slider infinite 20s 2s;
+}
+.imagecon{
+    display: block;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+    float: left;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    font-size: 20vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.imagecon:nth-child(1){
+    background-image: url(../IMG_HOME/blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(2){
+    background-image: url(../IMG_HOME/Yucca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(3){
+    background-image: url(../IMG_HOME/russet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(4){
+    background-image: url(../IMG_HOME/japanese.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(5){
+    background-image: url(../IMG_HOME/blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    12.5%{
+        margin-left: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    37.5%{
+        margin-left: -200%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    62.5%{
+        margin-left: -300%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    87.5%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+}
+
+@media only screen and (min-width:300px){
+    .imagetext{
+        font-size: 20vw;
+    }
+    .imagecon{
+        font-size: 15vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue5.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca5.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(../IMG_HOME/russet5.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(../IMG_HOME/japanese5.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue5.png);
+    }
+}
+@media only screen and (min-width:350px){
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue6.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca6.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(../IMG_HOME/russet6.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(../IMG_HOME/japanese6.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue6.png);
+    }
+}
+@media only screen and (min-width:400px){
+    .imagecon{
+        font-size: 15vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(../IMG_HOME/russet.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(../IMG_HOME/japanese.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue.png);
+    }
+}
+
+@media only screen and (min-width: 700px){
+    h2{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 3vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title h1{
+        color: black;
+        font-size: 20vw;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .title p{
+        padding-top: 6%;
+    }
+    .title{
+        background-image: url(https://thumbs.gfycat.com/AllForsakenAsianporcupine-small.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+    }
+    .title img{
+        display: none;
+    }
+    .mission-statement{
+        font-size: 3vw;
+        border-color: brown;
+    }
+    .mission-statement img{
+        float: left;
+        width: 25%;
+    }
+    .deviant{
+        font-size: 3vw;
+    }
+    .deviant img{
+        width: 25%;
+        float: left;
+    }
+    .inputbox{
+        width: 35vw;
+        height: 4vw;
+        font-size: 3vw; 
+        color: rgb(165, 165, 165);
+    }
+    .submitbutton{
+        width: 15vw;
+        height: 6vw;
+        font-size: 4vw;
+    }
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue2.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca2.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(../IMG_HOME/russet2.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(../IMG_HOME/japanese2.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue2.png);
+    }
+}
+@media only screen and (min-width: 1000px){
+    .imagetext{
+        font-size: 15vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    .slider{
+        height: 800px;
+    }
+    .logo{
+        width: 80%;
+        padding-left: 10%;
+    }
+    .mission-statement{
+        width: 100%;
+    }
+    .inputbox{
+        width: 30vw;
+        height: 4vw;
+        font-size: 3vw; 
+    }
+    .submitbutton{
+        width: 20vw;
+        height: 4vw;
+        font-size: 2vw;
+    }
+    
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue3.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca3.jpg);
+    }
+    .imagecon:nth-child(3){
+        background-image: url(../IMG_HOME/russet3.jpg);
+    }
+    .imagecon:nth-child(4){
+        background-image: url(../IMG_HOME/japanese3.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue3.png);
+    }
+}
+@media only screen and (min-width:1200px){
+    .logo{
+        width: 40%;
+        padding-left: 30%;
+        padding-bottom: 0%;
+    }
+    .title h1{
+        font-size: 9vw;
+        padding-top: 0%;
+    }
+    .slider{
+        height: 1150px;
+    }
+    .mission-statement-wrapper{
+        font-size: 2vw;
+    }
+    .deviant{
+        font-size: 2vw;
+    }
+    .form{
+        font-size: 4vw;
+    }
+    .imagecon{
+        font-size: 10vw;
+    }
+    .imagecon:nth-child(1){
+        background-image: url(../IMG_HOME/blue4.png);
+    }
+    .imagecon:nth-child(2){
+        background-image: url(../IMG_HOME/Yucca4.jpg);
+    }
+    .imagecon:nth-child(5){
+        background-image: url(../IMG_HOME/blue4.png);
+    }
+    .logo{
+        width: 10%;
+        height: 18%;
+        border-radius: 40%;
+        position: absolute;
+        left: -7%;
+        top: 0%;
+        z-index: 2;
+    }
+    .title p{
+        color: white;
+    }
+    .title h1{
+        font-size: 100px;
+    }
+    .mission-statement{
+        border: none;
+        color: white;
+        position: relative;
+        top: 100px;
+        border-top: 2px solid white;
+    }
+
+    .mission-statement h4{
+        color: white;
+    }
+
+    .mission-statement img{
+        border-radius: 50%;
+        border: 2px solid white;
+        width: 20%;
+        margin-right: 50px;
+        margin-top: 20px
+    }
+    .deviant{
+        border: none;
+        color: white;
+        position: relative;
+        width: 100%;
+    }
+    .deviant h2{
+        font-size: 100px;
+    }
+    .deviant p{
+        font-size: 30px;
+    }
+    .deviant img{
+        width: 35%;
+    }
+    .submitbutton{
+        transition: .1s;
+    }
+    .submitbutton:hover{
+        background-color: green;
+    }
+    #dnbtn{
+        position: relative;
+        left: 300px;
+    }
+    .sign-up-sheet{
+        background-image: none;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 100px;
+        border: none;
+    }
+    .sign-up-sheet h2{
+        font-size: 40px;
+    }
+    .sign-up-sheet label{
+        text-align: center;
+        font-size: 1vw;
+        display: inline-block;
+        clear: left;
+    }
+    .sign-up-sheet input{
+        display: inline-block;
+        clear: left;
+    }
+    .inputbox{
+        width: 40vw;
+        height: 2vw;
+        font-size: 1vw;
+    }
+    .submitbutton{
+        color: white;
+        background-color: cornflowerblue;
+        width: 15vw;
+        height: 2.2vw;
+        font-size: 2vw;
+        cursor: pointer;
+    }
+    .form input{
+        display: inline table;
+        left: 100px;
+    }
+}
+
+/*ADDED BY IGOR*/
+
+
+.nav-bar {
+    list-style: none;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+.nav-bar li:first-child {
+    margin-left: 50px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 50px;
+}
+.nav-bar li a:link,
+.nav-bar li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+    border-bottom: 2px solid #e67e22;
+}

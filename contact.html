@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="contact.css">
+
+    <link rel="stylesheet" type="text/css" href="Css/contact.css">
+    <link rel="stylesheet" type="text/css" href="Css/navbar.css">
+
     <title>Contact Us</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <div class="row">
+                <div class="col span-2-of-2">
+                <ul class="nav-bar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="storeindex.html">Store</a></li>
+                </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <h2>Do you like our products? Send us a message if you have comments!</h2>
@@ -25,7 +32,7 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter comments here" required></textarea><br>
         <label for="submit">Submit</label><br>
-        <input type="submit" id="submit" name="submit"><br>
+        <input type="submit" id="submitbtn" name="submit"><br>
     </form>
 </body>
 </html>
