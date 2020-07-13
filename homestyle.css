@@ -13,7 +13,7 @@ h2{
 }
 .title p{
     color:black;
-    font-size: 8vw;
+    font-size: 10vw;
     text-align: center;
     font-family: monospace;
 }
@@ -41,7 +41,7 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-style: solid;
     border-color: brown;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 .mission-statement img{
     width: 100%;
@@ -51,7 +51,7 @@ h2{
     border-style: ridge;
     border-color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5vw;
+    font-size: 6vw;
     position: relative;
 }
 .deviant img{
@@ -76,14 +76,14 @@ h2{
 }
 .form{
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
     width: 100%;
     height: 100%;
 }
 .inputbox{
     width: 60vw;
-    height: 5vw;
-    font-size: 4vw;
+    height: 7vw;
+    font-size: 5vw;
 }
 .submitbutton{
     color: white;
