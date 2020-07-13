@@ -1,0 +1,243 @@
+/*----------*/
+/*main style*/
+/*----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.box {
+    padding:1%;
+}
+
+/*----------*/
+/*HEADINGS*/
+/*----------*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 125%;
+    letter-spacing: 1.2px;
+    text-align: center;
+    height: 60px;
+   
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color:#e67e22;
+    content: " ";
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/*----------*/
+/*Buttons*/
+/*----------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+/*----------*/
+/*NAV BAR*/
+/*----------*/
+
+header{
+    background-image:linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../IMG/Background-products-pg.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.nav-bar {
+    list-style: none;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+.nav-bar li:first-child {
+    margin-left: 50px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 50px;
+}
+.nav-bar li a:link,
+.nav-bar li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/*----------*/
+/*Logo text*/
+/*----------*/
+
+.logo-text {
+    font-size: 130%;
+    text-align: center;
+    margin-top: 8%;
+    color: #fff;
+}
+
+/*----------*/
+/*IMGS*/
+/*----------*/
+
+img {
+    max-width: 100%;
+    max-height: 200px;
+
+}
+
+/*----------*/
+/*Domestic products*/
+/*----------*/
+
+.domestic-products h2,
+.international-products h2,
+.premium-products h2 {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.domestic-products h3,
+.international-products h3,
+.premium-products h3{
+    margin-bottom: 15px;
+}
+
+.domestic-products p,
+.international-products p,
+.premium-products p{
+    word-spacing: 2px;
+    line-height: 135%;
+
+}
+
+.domestic-products img,
+.international-products img,
+.premium-products img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.premium-products {
+    margin-bottom: 0px;
+}
+.prod-box {
+    background-color: #eeeeee;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5%;
+    width: 100%;
+    box-shadow: 10px 20px 2px #4d4d4d3d;
+    padding: 5%;
+}
+
+/*----------*/
+/*Footer*/
+/*----------*/
+
+footer {
+    background-color: #333;
+    padding: 45px;
+    font-size: 95%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.copyright {
+    float: right
+}
+
+.footer-nav li,
+.copyright {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li{
+    margin-right: 15px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #e67e22;
+}
+

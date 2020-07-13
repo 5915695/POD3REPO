@@ -2,7 +2,7 @@ body{
     background-color: #111111;
     padding: 0%;
     scroll-behavior: smooth;
-    overflow-x: unset;
+    overflow-x: hidden;
 }
 h2{
     color: rgb(196, 130, 108);
@@ -32,7 +32,7 @@ h2{
 .logo img{
     width: 100%;
     height: 100%;
-   border-radius: 100%;
+    border-radius: 100%;
     border-style: dotted;
     border-color: cornflowerblue;
     image-rendering: crisp-edges;
@@ -126,27 +126,27 @@ h2{
     color: red;
 }
 .imagecon:nth-child(1){
-    background-image: url(blue.png);
+    background-image: url(../IMG_HOME/blue.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imagecon:nth-child(2){
-    background-image: url(Yucca.jpg);
+    background-image: url(../IMG_HOME/Yucca.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imagecon:nth-child(3){
-    background-image: url(russet.jpg);
+    background-image: url(../IMG_HOME/russet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imagecon:nth-child(4){
-    background-image: url(japanese.jpg);
+    background-image: url(../IMG_HOME/japanese.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imagecon:nth-child(5){
-    background-image: url(blue.png);
+    background-image: url(../IMG_HOME/blue.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -186,36 +186,36 @@ h2{
         font-size: 15vw;
     }
     .imagecon:nth-child(1){
-        background-image: url(blue5.png);
+        background-image: url(../IMG_HOME/blue5.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca5.jpg);
+        background-image: url(../IMG_HOME/Yucca5.jpg);
     }
     .imagecon:nth-child(3){
-        background-image: url(russet5.jpg);
+        background-image: url(../IMG_HOME/russet5.jpg);
     }
     .imagecon:nth-child(4){
-        background-image: url(japanese5.jpg);
+        background-image: url(../IMG_HOME/japanese5.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue5.png);
+        background-image: url(../IMG_HOME/blue5.png);
     }
 }
 @media only screen and (min-width:350px){
     .imagecon:nth-child(1){
-        background-image: url(blue6.png);
+        background-image: url(../IMG_HOME/blue6.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca6.jpg);
+        background-image: url(../IMG_HOME/Yucca6.jpg);
     }
     .imagecon:nth-child(3){
-        background-image: url(russet6.jpg);
+        background-image: url(../IMG_HOME/russet6.jpg);
     }
     .imagecon:nth-child(4){
-        background-image: url(japanese6.jpg);
+        background-image: url(../IMG_HOME/japanese6.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue6.png);
+        background-image: url(../IMG_HOME/blue6.png);
     }
 }
 @media only screen and (min-width:400px){
@@ -223,19 +223,19 @@ h2{
         font-size: 15vw;
     }
     .imagecon:nth-child(1){
-        background-image: url(blue.png);
+        background-image: url(../IMG_HOME/blue.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca.jpg);
+        background-image: url(../IMG_HOME/Yucca.jpg);
     }
     .imagecon:nth-child(3){
-        background-image: url(russet.jpg);
+        background-image: url(../IMG_HOME/russet.jpg);
     }
     .imagecon:nth-child(4){
-        background-image: url(japanese.jpg);
+        background-image: url(../IMG_HOME/japanese.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue.png);
+        background-image: url(../IMG_HOME/blue.png);
     }
 }
 
@@ -296,19 +296,19 @@ h2{
         font-size: 10vw;
     }
     .imagecon:nth-child(1){
-        background-image: url(blue2.png);
+        background-image: url(../IMG_HOME/blue2.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca2.jpg);
+        background-image: url(../IMG_HOME/Yucca2.jpg);
     }
     .imagecon:nth-child(3){
-        background-image: url(russet2.jpg);
+        background-image: url(../IMG_HOME/russet2.jpg);
     }
     .imagecon:nth-child(4){
-        background-image: url(japanese2.jpg);
+        background-image: url(../IMG_HOME/japanese2.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue2.png);
+        background-image: url(../IMG_HOME/blue2.png);
     }
 }
 @media only screen and (min-width: 1000px){
@@ -340,19 +340,19 @@ h2{
         font-size: 10vw;
     }
     .imagecon:nth-child(1){
-        background-image: url(blue3.png);
+        background-image: url(../IMG_HOME/blue3.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca3.jpg);
+        background-image: url(../IMG_HOME/Yucca3.jpg);
     }
     .imagecon:nth-child(3){
-        background-image: url(russet3.jpg);
+        background-image: url(../IMG_HOME/russet3.jpg);
     }
     .imagecon:nth-child(4){
-        background-image: url(japanese3.jpg);
+        background-image: url(../IMG_HOME/japanese3.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue3.png);
+        background-image: url(../IMG_HOME/blue3.png);
     }
 }
 @media only screen and (min-width:1200px){
@@ -369,12 +369,147 @@ h2{
         font-size: 10vw;
     }
     .imagecon:nth-child(1){
-        background-image: url(blue4.png);
+        background-image: url(../IMG_HOME/blue4.png);
     }
     .imagecon:nth-child(2){
-        background-image: url(Yucca4.jpg);
+        background-image: url(../IMG_HOME/Yucca4.jpg);
     }
     .imagecon:nth-child(5){
-        background-image: url(blue4.png);
+        background-image: url(../IMG_HOME/blue4.png);
     }
+    .logo{
+        width: 10%;
+        height: 18%;
+        border-radius: 40%;
+        position: absolute;
+        left: -7%;
+        top: 0%;
+        z-index: 2;
+    }
+    .title p{
+        color: white;
+    }
+    .title h1{
+        font-size: 100px;
+    }
+    .mission-statement{
+        border: none;
+        color: white;
+        position: relative;
+        top: 100px;
+        border-top: 2px solid white;
+    }
+
+    .mission-statement h4{
+        color: white;
+    }
+
+    .mission-statement img{
+        border-radius: 50%;
+        border: 2px solid white;
+        width: 20%;
+        margin-right: 50px;
+        margin-top: 20px
+    }
+    .deviant{
+        border: none;
+        color: white;
+        position: relative;
+        width: 100%;
+    }
+    .deviant h2{
+        font-size: 100px;
+    }
+    .deviant p{
+        font-size: 30px;
+    }
+    .deviant img{
+        width: 35%;
+    }
+    .submitbutton{
+        transition: .1s;
+    }
+    .submitbutton:hover{
+        background-color: green;
+    }
+    #dnbtn{
+        position: relative;
+        left: 300px;
+    }
+    .sign-up-sheet{
+        background-image: none;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 100px;
+        border: none;
+    }
+    .sign-up-sheet h2{
+        font-size: 40px;
+    }
+    .sign-up-sheet label{
+        text-align: center;
+        font-size: 1vw;
+        display: inline-block;
+        clear: left;
+    }
+    .sign-up-sheet input{
+        display: inline-block;
+        clear: left;
+    }
+    .inputbox{
+        width: 40vw;
+        height: 2vw;
+        font-size: 1vw;
+    }
+    .submitbutton{
+        color: white;
+        background-color: cornflowerblue;
+        width: 15vw;
+        height: 2.2vw;
+        font-size: 2vw;
+        cursor: pointer;
+    }
+    .form input{
+        display: inline table;
+        left: 100px;
+    }
+}
+
+/*ADDED BY IGOR*/
+
+
+.nav-bar {
+    list-style: none;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+.nav-bar li:first-child {
+    margin-left: 50px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 50px;
+}
+.nav-bar li a:link,
+.nav-bar li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+    border-bottom: 2px solid #e67e22;
 }
